@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <!-- live scoreboard -->
+        <div class="box">
+            <table id="table1">
+                <tr>
+                    <th><b>YOU</b></th>
+                    <th><b>COMPUTER</b></th>
+                </tr>
+                <tr>
+                    <td id="td1">0</td>
+                    <td id="td12">0</td>
+                </tr>
+            </table>
+        </div>
+
+
+        <!-- present choice and result -->
+        <div id="center">
+            <div id="div1">YOU</div>
+            <div id="div2">COMPUTER</div>
+            <div id="discription"> "Score 7 Points To Win The Match" <br> " You Have 20 Rounds To Finish The Game "
+                <br>"One Click (Choise) = One Round"
+            </div>
+            <div id="result">RESULT</div>
+        </div>
+
+
+
+        <!-- HISTORY -->
+        <div class="box">
+            <table id="table2">
+                <thead>
+                <tr id="tr1">
+                    <th><b>No. of rounds</b></th>
+                    <th><b>YOU</b></th>
+                    <th><b>COMPUTER</b></th>
+                </tr>
+                </thead>
+
+                <tbody id="tbody">
+                </tbody>
+
+            </table>
+        </div>
+    </div>
+
+    <div class="button">
+        <button id="SnakeButton" class="btn">SNAKE</button>
+        <button id="WaterButton" class="btn">WATER</button>
+        <button id="GunButton" class="btn">GUN</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
